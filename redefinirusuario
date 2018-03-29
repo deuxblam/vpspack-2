@@ -13,7 +13,7 @@ echo -e "\033[1;33mOpciones a modificar ?\033[1;30m
 1) Numero de logins
 2) Fecha de expiracion
 3) Cambiar contraseña del usuario"
-read -p "opção: " option
+read -p "opcion: " option
 if [ $option -eq 1 ]; then
 read -p "Cual es el nuevo numero de logins: " liml
 limite $namer $liml
